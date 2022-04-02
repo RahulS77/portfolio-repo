@@ -1,6 +1,7 @@
 <template>
   <div>
     {{ isMobile }}
+    Test
     <portfolio />
   </div>
 </template>

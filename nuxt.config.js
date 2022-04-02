@@ -1,6 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  mode: 'static',
+  router: {
+    base: '/portfolio-repo/'
+  },
+  // Allows page refresh to work on github pages
+  generate: {
+    fallback: "404.html"
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 

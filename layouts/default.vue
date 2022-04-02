@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app :class="isMobile ? 'is-mobile': 'is-desktop'" dark>
     <v-main>
       <v-container>
         <Nuxt />
@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: 'DefaultLayout',
   data () {
@@ -33,6 +35,9 @@ export default {
       rightDrawer: false,
       title: 'Vuetify.js'
     }
+  },
+  computed: {
+    ...mapGetters(['isMobile'])
   }
 }
 </script>

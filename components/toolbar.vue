@@ -55,7 +55,7 @@ export default {
   justify-content: flex-end;
   text-align: center;
   list-style-type: none;
-  min-height: 55px;
+  height: 55px;
   margin: -10px 0 0 0;
   padding: 0;
   -webkit-backdrop-filter: blur(8px);

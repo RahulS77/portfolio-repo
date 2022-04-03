@@ -1,0 +1,37 @@
+@import './grid.scss';
+@import './variables.scss';
+
+html {
+  background-color: $color-white-default;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body, html {
+  height: 100%;
+}
+
+.route-home {
+  background-image: url("~/assets/img/home/home-banner.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.v-application ul, .v-application ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

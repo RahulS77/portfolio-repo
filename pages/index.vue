@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div :class="currentPage">
     <toolbar @toolbarSwitch="switchView" />
-    <banners v-if="currentPage === 'route-home'" :banner-list="homeBannerList" />
+    <home v-if="currentPage === 'route-home'" :home-details="homeData" />
     <experience v-if="currentPage === 'route-exp'" />
     <education v-if="currentPage === 'route-edu'" />
     <about v-if="currentPage === 'route-about'" />
@@ -15,14 +15,17 @@ export default {
   data () {
     return {
       currentPage: '',
-      homeBannerList: [
-        { name: 'Rahul Shah', text1: 'Text1', text2: 'Some Text 2 here', src: 'home-banner.jpg' }
-      ]
+      homeData: { 
+        firstName: "Rahul", 
+        lastName: "Shah", 
+        text1: "Hi,&nbsp;I'm ", 
+        text2: "I am a creative Frontend Developer"
+      }
     };
   },
   components: {
     Toolbar: () => import('/components/Toolbar'),
-    Banners: () => import('/components/Banners'),
+    Home: () => import('/components/Home'),
     Education: () => import('/components/Education'),
     Experience: () => import('/components/Experience'),
     About: () => import('/components/About')

@@ -1,9 +1,7 @@
 <template>
   <v-app :class="isMobile ? 'is-mobile': 'is-desktop'" dark>
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <Nuxt />
     </v-main>
   </v-app>
 </template>

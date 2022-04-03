@@ -41,6 +41,12 @@ export default {
     .container {
       .experience-timeline {
         background: none;
+        .text-h6 {
+          font-size: 1rem!important;
+        }
+        .timeline-job-title, .timeline-job-company {
+          font-size: 0.9rem!important;
+        }
       }
     }
   }

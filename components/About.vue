@@ -79,6 +79,11 @@ export default {
       .about-details {
         background: none;
         margin-bottom: 0;
+        .tech-stack-list {
+          .tech-stack {
+            margin: 10px;
+          }
+        }
       }
     } 
   }

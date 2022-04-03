@@ -17,12 +17,27 @@ body, html {
   height: 100%;
 }
 
-.route-home {
-  background-image: url("~/assets/img/home/home-banner.jpg");
+.div__bg {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.route-home {
+  background-image: url("~/assets/img/banners/home-banner.jpg");
+}
+
+.route-exp {
+  background-image: url("~/assets/img/banners/others-banner.jpg");
+}
+
+.route-edu {
+  background-image: url("~/assets/img/banners/others-banner.jpg");
+}
+
+.route-about {
+  background-image: url("~/assets/img/banners/others-banner.jpg");
 }
 
 a {

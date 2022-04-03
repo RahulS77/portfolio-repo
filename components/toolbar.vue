@@ -21,7 +21,6 @@ export default {
       links: [
         { title: "Home", value: "route-home" },
         { title: "Experience", value: "route-exp" },
-        { title: "Education", value: "route-edu" },
         { title: "About Me", value: "route-about" }
       ]
     };

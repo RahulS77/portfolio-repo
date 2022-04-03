@@ -15,10 +15,11 @@
       {{ homeDetails.text2 }}
     </div>
     <div class="button-container">
-      <div class="button" @click="downloadResume">
-        <a href="Rahul_Shah.pdf">Download my CV</a>
+      <div class="button">
+        <a href="Rahul_Shah.pdf" target="_blank">Download my CV</a>
       </div>
     </div>
+    <socials />
   </div>
 </template>
 
@@ -29,6 +30,9 @@ export default {
       type: Object,
       default: () => {}
     }
+  },
+  components: {
+    Socials: () => import('./Socials')
   },
   methods: {
   }
@@ -60,7 +64,7 @@ export default {
   .button-container {
     .button {
       display: flex;
-      margin-top: 20px;
+      margin: 20px 0;
       padding: 10px;
       border: 1px solid $color-white-default;
       border-radius: 5px;

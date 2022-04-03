@@ -1,9 +1,8 @@
 <template>
-  <div :class="currentPage">
+  <div class="div__bg" :class="currentPage">
     <toolbar @toolbarSwitch="switchView" />
     <home v-if="currentPage === 'route-home'" :home-details="homeData" />
     <experience v-if="currentPage === 'route-exp'" />
-    <education v-if="currentPage === 'route-edu'" />
     <about v-if="currentPage === 'route-about'" />
   </div>
 </template>
@@ -26,7 +25,6 @@ export default {
   components: {
     Toolbar: () => import('/components/Toolbar'),
     Home: () => import('/components/Home'),
-    Education: () => import('/components/Education'),
     Experience: () => import('/components/Experience'),
     About: () => import('/components/About')
   },

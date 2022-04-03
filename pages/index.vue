@@ -17,7 +17,7 @@ export default {
       homeData: { 
         firstName: "Rahul", 
         lastName: "Shah", 
-        text1: "Hi,&nbsp;I'm ", 
+        text1: "Hi,&nbsp;I am ", 
         text2: "I am a creative Frontend Developer"
       }
     };

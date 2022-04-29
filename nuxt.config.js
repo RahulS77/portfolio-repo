@@ -2,9 +2,6 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'static',
-  router: {
-    base: ''
-  },
   // Allows page refresh to work on github pages
   generate: {
     fallback: "404.html"

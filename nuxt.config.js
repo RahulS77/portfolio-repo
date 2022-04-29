@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   mode: 'static',
   router: {
-    base: '/portfolio-repo/'
+    base: ''
   },
   // Allows page refresh to work on github pages
   generate: {

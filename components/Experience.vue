@@ -28,7 +28,8 @@ export default {
       experienceData: [
         { color: 'cyan', year: 'July 2017 - September 2018', companyName: 'GlobalLogic Pvt. Ltd., Noida, India', jobTitle: 'Software Engineer' },
         { color: 'green', year: 'October 2018 - December 2020', companyName: 'Primuson Pvt. Ltd., Kathmandu, Nepal', jobTitle: 'Web Developer, R&D Team' },
-        { color: 'amber', year: 'January 2021 - current', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
+        { color: 'cyan', year: 'February 2021 - June', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
+        { color: 'green', year: 'June 2022 - current', companyName: 'Nagaworld Integrated Resort, Phnom Penh, Cambodia', jobTitle: 'Senior Programmer' },
       ]
     };
   }

@@ -29,8 +29,8 @@ export default {
         { color: 'cyan', year: 'July 2017 - September 2018', companyName: 'GlobalLogic Pvt. Ltd., Noida, India', jobTitle: 'Software Engineer' },
         { color: 'green', year: 'October 2018 - December 2020', companyName: 'Primuson Pvt. Ltd., Kathmandu, Nepal', jobTitle: 'Web Developer, R&D Team' },
         { color: 'cyan', year: 'February 2021 - June 2022', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
-        { color: 'green', year: 'July 2022 - Nov 2022', companyName: 'Nagaworld Integrated Resort, Phnom Penh, Cambodia', jobTitle: 'Senior Programmer' },
-        { color: 'cyan', year: 'Dec 2022 - Jum 2024', companyName: 'Orkun Solutions Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Senior Frontend Developer' },
+        { color: 'green', year: 'July 2022 - November 2022', companyName: 'Nagaworld Integrated Resort, Phnom Penh, Cambodia', jobTitle: 'Senior Programmer' },
+        { color: 'cyan', year: 'December 2022 - June 2024', companyName: 'Orkun Solutions Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Senior Frontend Developer' },
       ]
     };
   }

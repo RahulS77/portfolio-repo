@@ -16,7 +16,7 @@
     </div>
     <div class="button-container">
       <div class="button">
-        <a href="Rahul_Shah.pdf" target="_blank">Download my CV</a>
+        <a href="RahulShah.pdf" target="_blank">Download my CV</a>
       </div>
     </div>
     <socials />

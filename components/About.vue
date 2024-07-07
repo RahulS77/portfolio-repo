@@ -52,7 +52,10 @@ export default {
         { name: "Docker", img: 'docker' },
         { name: "ExpressJS", img: 'expressjs' },
         { name: "NuxtJS", img: 'nuxt' },
-        { name: "Puppeteer", img: 'puppeteer' }
+        { name: "ElectronJS", img: 'electron' },
+        { name: "Flutter", img: 'flutter' },
+        { name: "Puppeteer", img: 'puppeteer' },
+        { name: "Wordpress", img: 'wordpress' },
       ]
     };
   },
@@ -95,14 +98,14 @@ export default {
   text-align: center;
   align-items: center;
   height: calc(100vh - 55px);
-  overflow: auto;
+  // overflow: auto;
   font-family: "Lucida Console", "Courier New", monospace;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   .container {
-    overflow: auto;
+    // overflow: auto;
     .about-details {
-      background: $color-black-dark;
+      // background: $color-black-dark;
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 20px;

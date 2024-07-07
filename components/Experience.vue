@@ -28,7 +28,9 @@ export default {
       experienceData: [
         { color: 'cyan', year: 'July 2017 - September 2018', companyName: 'GlobalLogic Pvt. Ltd., Noida, India', jobTitle: 'Software Engineer' },
         { color: 'green', year: 'October 2018 - December 2020', companyName: 'Primuson Pvt. Ltd., Kathmandu, Nepal', jobTitle: 'Web Developer, R&D Team' },
-        { color: 'amber', year: 'January 2021 - current', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
+        { color: 'cyan', year: 'February 2021 - June 2022', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
+        { color: 'green', year: 'July 2022 - Nov 2022', companyName: 'Nagaworld Integrated Resort, Phnom Penh, Cambodia', jobTitle: 'Senior Programmer' },
+        { color: 'cyan', year: 'Dec 2022 - Jum 2024', companyName: 'Orkun Solutions Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Senior Frontend Developer' },
       ]
     };
   }
@@ -57,14 +59,22 @@ export default {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: calc(100vh - 55px);
-  overflow: auto;
+  // height: calc(100vh - 55px);
+  // overflow: auto;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  .cyan {
+    background-color: #155e75!important;
+    border-color: #155e75!important;
+  }
+  .green {
+    background-color: #166534!important;
+    border-color: #166534!important;
+  }
   .container {
-    overflow: auto;
+    // overflow: auto;
     .experience-timeline {
-      background: $color-black-dark;
+      // background: $color-black-dark;
       border-radius: 10px;
       padding: 20px;
       .timeline-text {

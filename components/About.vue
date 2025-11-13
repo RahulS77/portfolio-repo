@@ -56,6 +56,13 @@ export default {
         { name: "Flutter", img: 'flutter' },
         { name: "Puppeteer", img: 'puppeteer' },
         { name: "Wordpress", img: 'wordpress' },
+        { name: "Python", img: 'python' },
+        { name: "Keras", img: 'keras' },
+        { name: "PySpark", img: 'pyspark' },
+        { name: "Tensorflow", img: 'tensorflow' },
+        { name: "NumPy", img: 'numpy' },
+        { name: "Pandas", img: 'pandas' },
+        { name: "Matplotlib", img: 'matplotlib' }
       ]
     };
   },

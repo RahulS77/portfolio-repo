@@ -104,7 +104,7 @@ export default {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: calc(100vh - 55px);
+  // height: calc(100vh - 55px);
   // overflow: auto;
   font-family: "Lucida Console", "Courier New", monospace;
   -webkit-backdrop-filter: blur(8px);

@@ -26,7 +26,7 @@ export default {
   data () {
     return {
       experienceData: [
-        { color: 'cyan', year: 'November 2025 - current', companyName: 'Kantipur Management Pvt. Ltd., Kathmandu, Nepal', jobTitle: 'Senior Frontend Developer' },
+        { color: 'green', year: 'November 2025 - current', companyName: 'Kantipur Management Pvt. Ltd., Kathmandu, Nepal', jobTitle: 'Senior Frontend Developer' },
         { color: 'cyan', year: 'December 2022 - June 2024', companyName: 'Orkun Solutions Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Senior Frontend Developer' },
         { color: 'green', year: 'July 2022 - November 2022', companyName: 'Nagaworld Integrated Resort, Phnom Penh, Cambodia', jobTitle: 'Senior Programmer' },
         { color: 'cyan', year: 'February 2021 - June 2022', companyName: 'Aistra Consultancy Co. Ltd., Phnom Penh, Cambodia', jobTitle: 'Software Engineer' },
